@@ -17,7 +17,6 @@ function App() {
   };
 
   return (
-    <>
       {todos.map((todo, i) => {
         return (
           <div className="app">
@@ -28,7 +27,6 @@ function App() {
         );
       })}
       <TodoForm addTodo={addTodo} />
-    </>
   );
 }
 
